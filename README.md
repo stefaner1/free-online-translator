@@ -9,7 +9,7 @@ Ta usługa nie kosztuje ani grosza! Nie musisz nawet się rejestrować, aby z ni
 
 ## DODAJ NA STRONĘ KOD HTML
 Przekopiuj kod HTML i dodaj do swojej strony lub skorzystaj z darmowej wtyczki do WordPressa.
-`<script type='text/javascript' src='https://euroalphabet.eu/wp-content/uploads/2019/03/translatorea-onlycode.js?ver=1.0.3'> </script> <link rel='stylesheet' href='https://euroalphabet.eu/wp-content/uploads/2019/03/translatorea-onlycode.css?ver=1.0.3' type='text/css' media='all' />`
+`<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/translatorea-onlycode.js'> </script> <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/translatorea-onlycode.css' type='text/css' media='all' />`
 
 ## POTRZEBUJESZ PROFESJONALNEGO tłumaczenia strony?
 Sprawdź naszą ofertę i napisz do nas! Chętnie pomożemy.
