@@ -1,4 +1,4 @@
-## Darmowe narzędzie do tłumaczenia stron internetowych
+# Darmowe narzędzie do tłumaczenia stron internetowych
 https://euroalphabet.eu/darmowe-tlumaczenie-strony/
 
 Bezpłatne i bez żadnych rejestracji przetłumacz stronę na angielski! Tłumaczenie strony jest całkowicie automatyczne — jednym kliknięciem otrzymujesz piękne tłumaczenie strony! Wtyczka Wordpress Auto Translate Free dostarcza dla każdego tłumaczenie stron internetowych za darmo. Możesz również w bardzo prosty sposób dodać przycisk na swoją stronę, który natychmiast przetłumaczy Twoją stronę na język wybrany przez użytkownika. Strona nie musi korzystać z WordPressa. Wystarczy przykleić poniższy kod HTML.
