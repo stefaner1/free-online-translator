@@ -40,7 +40,7 @@ var pageLang = defaultLang;
 defaultLang = defaultLang ? defaultLang : document.documentElement.lang.split("-")[0];
 if (inIframe() && window.location.href.indexOf(translator[translationProvider].iframeParent) > -1) {
     defaultLang = document.documentElement.lang.split("-")[0];
-    console.log('defaultLang', defaultLang);
+    // console.log('defaultLang', defaultLang);
 };
 
 //console.log(defaultLang);
@@ -105,11 +105,11 @@ function showLangs() {
 
 
 
-console.log('defaultLang', defaultLang);
+// console.log('defaultLang', defaultLang);
 
 function createLangs() {
     var currentUrl = window.location.href;
-    console.log('inIframe() && window.location.href.indexOf(translator[translationProvider].iframeParent) > -1', inIframe() && window.location.href.indexOf(translator[translationProvider].iframeParent) > -1, window.location.href);
+    // console.log('inIframe() && window.location.href.indexOf(translator[translationProvider].iframeParent) > -1', inIframe() && window.location.href.indexOf(translator[translationProvider].iframeParent) > -1, window.location.href);
     if (inIframe() && window.location.href.indexOf(translator[translationProvider].iframeParent) > -1) {
         currentUrl = document.getElementsByTagName('iframe')[0].baseURI;
     };
