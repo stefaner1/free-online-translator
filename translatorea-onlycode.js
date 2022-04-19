@@ -1,4 +1,17 @@
-var langs =[ { "short": "en", "img": "https://image.flaticon.com/icons/svg/299/299722.svg", "name": "English" }, { "short": "de", "img": "https://image.flaticon.com/icons/svg/299/299786.svg", "name": "Deutsch" }, { "short": "pl", "img": "https://image.flaticon.com/icons/svg/299/299737.svg", "name": "Polski" }, { "short": "es", "img": "https://image.flaticon.com/icons/svg/299/299820.svg", "name": "Español" }, { "short": "fr", "img": "https://image.flaticon.com/icons/svg/299/299753.svg", "name": "Français" }, { "short": "pt", "img": "https://image.flaticon.com/icons/svg/299/299724.svg", "name": "Português" }, { "short": "ru", "img": "https://image.flaticon.com/icons/svg/299/299700.svg", "name": "русский" } ] ; var selectedLangs=["en","de","pl","es","fr","pt","ru","pl"]; var defaultLang ="pl"; var translationProvider ="google"; var translatoreaPosition ="right"; var translatoreaLink =1;
+var langs = [
+    { "short": "en", "img": "https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/img/english.svg", "name": "English" },
+    { "short": "de", "img": "https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/img/german.svg", "name": "Deutsch" }
+    , { "short": "pl", "img": "https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/img/polish.svg", "name": "Polski" },
+    { "short": "es", "img": "https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/img/spanish.svg", "name": "Español" },
+    { "short": "fr", "img": "https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/img/french.svg", "name": "Français" },
+    { "short": "pt", "img": "https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/img/portugal.svg", "name": "Português" },
+    { "short": "ru", "img": "https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/img/russian.svg", "name": "русский" }]; 
+var selectedLangs = ["en", "de", "pl", "es", "fr", "pt", "ru", "pl"]; 
+var defaultLang = "pl"; 
+var translationProvider = "google"; 
+var translatoreaPosition = "right"; 
+var translatoreaLink = 1;
+
 
 /*document.write('<link href="https://fonts.googleapis.com/css?family=News+Cycle:700" rel="stylesheet">');
 document.write('<link href="page-translator.css" rel="stylesheet">');*/
@@ -32,7 +45,7 @@ if (inIframe() && window.location.href.indexOf(translator[translationProvider].i
 
 //console.log(defaultLang);
 var defaultLangMore;
-langs.forEach(function(item) {
+langs.forEach(function (item) {
     if (item.short == defaultLang) {
         defaultLangMore = item;
     }
@@ -43,11 +56,11 @@ var btn1 = '<div class="translate_wrapper ' + translatoreaPosition + '"> <div cl
 
 //document.body += btn1;
 //document.write(btn1);
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // document.write(btn1);
     var elem = document.createElement('div');
     elem.innerHTML = btn1;
-    
+
     var myElem = document.getElementById('ea-translate-test');
     if (myElem !== null) {
         // Get the reference node
@@ -83,7 +96,7 @@ function showLangs() {
     }
     else {
         element.classList.add("active");
-        setTimeout(function() {
+        setTimeout(function () {
             element_more.classList.add("active");
         }, 5);
     }
@@ -106,7 +119,7 @@ function createLangs() {
 
     var engine = translator[translationProvider];
 
-    langs.forEach(function(item) {
+    langs.forEach(function (item) {
         if (selectedLangs.indexOf(item.short) !== -1) {
             //console.log(defaultLang == item.short, defaultLang, item.short)
             if (defaultLang == item.short) item.className = 'selected';
