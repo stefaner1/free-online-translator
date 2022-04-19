@@ -32,8 +32,8 @@
     width:10px;
     height:10px;
     margin-left: 8px;
-    -webkit-mask: url('https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/img/arrow.svg') no-repeat center;
-    mask: url('https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/img/arrow.svg') no-repeat center;
+    background: url(https://cdn.jsdelivr.net/gh/stefaner1/free-online-translator/img/arrow.svg) no-repeat center;
+    background-size: contain;
 }
 .translate_wrapper1{
   box-shadow:rgba(0,0,0,0.15) 0 5px 15px;
