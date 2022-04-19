@@ -32,8 +32,8 @@
     width:10px;
     height:10px;
     margin-left: 8px;
-    -webkit-mask: url(https://image.flaticon.com/icons/svg/72/72436.svg) no-repeat center;
-    mask: url(https://image.flaticon.com/icons/svg/72/72436.svg) no-repeat center;
+    -webkit-mask: url(img/arrow.svg) no-repeat center;
+    mask: url(img/arrow.svg) no-repeat center;
 }
 .translate_wrapper1{
   box-shadow:rgba(0,0,0,0.15)0 5px 15px;
